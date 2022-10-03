@@ -1,6 +1,13 @@
 # Cours de Rust   
 Ceci n'est qu'une fiche patique où est annoté l'essentiel. Pour tous les détails merci de vous reporter au [BOOK](https://doc.rust-lang.org/book/) ou a sa version non officielle française: [LE LIVRE](https://jimskapt.github.io/rust-book-fr/title-page.html).   
    
+# SOMMAIRE:   
+[Installation](#installation-linux)   
+[Initiation](#initiation]   
+[Concepts de bases](#concepts-courants-de-programmation]   
+   
+   
+  
 # Installation (linux)   
    
 ```$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh```
@@ -57,7 +64,9 @@ let espaces = espaces.len();
    
 ### Constante   
 
-const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;
+const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;   
+Nommage: snake case majuscule + type.   
+
 
 
 
