@@ -1,3 +1,35 @@
+#Cours de Rust   
+Ceci n'est qu'une fiche patique où est annoté l'essentiel. Pour tous les détails merci de vous reporter au [BOOK](https://doc.rust-lang.org/book/) ou a sa version non officielle française: [LE LIVRE](https://jimskapt.github.io/rust-book-fr/title-page.html).   
+   
+# Installation (linux)   
+   
+```$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh```
+   
+Mettre à jour:
+```rustup update```   
+   
+Désinstaller:   
+```rustup self uninstall```   
+   
+Accéder à la *Documentation* en local:
+```rustup doc```   
+## Cargo le paquet manager   
+   
+Créer un projet:
+```cargo new projet_rust```  
+Compiler du code:
+```cargo build```   
+et ainsi verifier les erreurs.   
+   
+Compiler et lancer:   
+```cargo run```   
+   
+Compiler sans produire de binaire juste pour la verif:   
+```cargo check```   
+   
+
+# Initiation   
+Merci de vous referer au projet plus_moins dans ce même dépot.   
 Variable rust
 https://jimskapt.github.io/rust-book-fr/ch03-01-variables-and-mutability.html
 
@@ -6,6 +38,7 @@ let x = 5;
 
 mutable:
 let mut x = 5;
+x = 7;
 
 constante:
 const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;
