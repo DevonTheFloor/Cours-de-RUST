@@ -3,11 +3,11 @@ Ceci n'est qu'une fiche patique où est annoté l'essentiel. Pour tous les déta
    
 # SOMMAIRE:   
 [Installation](#installation-linux)   
-[Initiation](#initiation]   
-[Concepts de bases](#concepts-courants-de-programmation]   
+[Initiation](#initiation)   
+[Concepts de bases](#concepts-courants-de-programmation)   
    
    
-  
+
 # Installation (linux)   
    
 ```$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh```
