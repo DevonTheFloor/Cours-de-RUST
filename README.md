@@ -1,4 +1,4 @@
-#Cours de Rust   
+# Cours de Rust   
 Ceci n'est qu'une fiche patique où est annoté l'essentiel. Pour tous les détails merci de vous reporter au [BOOK](https://doc.rust-lang.org/book/) ou a sa version non officielle française: [LE LIVRE](https://jimskapt.github.io/rust-book-fr/title-page.html).   
    
 # Installation (linux)   
@@ -30,24 +30,26 @@ Compiler sans produire de binaire juste pour la verif:
 
 # Initiation   
 Merci de vous referer au projet plus_moins dans ce même dépot.   
-Variable rust
-https://jimskapt.github.io/rust-book-fr/ch03-01-variables-and-mutability.html
+### Variable rust   
+let x = 5;   
 
+mutable:   
 
-let x = 5;
+let mut x = 5;   
 
-mutable:
-let mut x = 5;
-x = 7;
-
-constante:
-const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;
+x = 7;   
+   
 
 masqué:
 let x =5;
 let x= x+2; => valable dans un bloc, apres reprend la valeur initiale et permet le changement de type:
 let espaces = "   ";
-let espaces = espaces.len();
+let espaces = espaces.len();   
+   
+
+### Constante   
+
+const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;
 
 
 
