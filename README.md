@@ -30,6 +30,10 @@ Compiler sans produire de binaire juste pour la verif:
 
 # Initiation   
 Merci de vous referer au projet plus_moins dans ce même dépot.   
+   
+# Concepts courants de programmation   
+   
+
 ### Variable rust   
 let x = 5;   
 
