@@ -36,21 +36,25 @@ Merci de vous referer au projet plus_moins dans ce même dépot.
 
 ### Variable rust   
 let x = 5;   
-
-mutable:   
+   
+Immuable par défaut, on peut les rendre mutable:   
 
 let mut x = 5;   
+Ansi x peut être réaffecté:   
 
 x = 7;   
    
+Les variables peuvenet être masquées:   
 
-masqué:
-let x =5;
-let x= x+2; => valable dans un bloc, apres reprend la valeur initiale et permet le changement de type:
-let espaces = "   ";
+let x =5;   
+Aplication du masque:   
+let x= x+2; => valable dans un bloc, apres reprend la valeur initiale et permet le changement de type:   
+
+let espaces = "   ";   
+
 let espaces = espaces.len();   
    
-
+   
 ### Constante   
 
 const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;
