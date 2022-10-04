@@ -51,10 +51,10 @@ Ansi x peut être réaffecté:
 
 x = 7;   
    
-Les variables peuvenet être masquées:   
+Les variables peuvent être masquées:   
 
 let x =5;   
-Aplication du masque:   
+Application du masque:   
 let x= x+2; => valable dans un bloc, apres reprend la valeur initiale et permet le changement de type:   
 
 let espaces = "   ";   
@@ -66,6 +66,20 @@ let espaces = espaces.len();
 
 const TROIS_HEURES_EN_SECONDES: u32 = 60 * 60 * 3;   
 Nommage: snake case majuscule + type.   
+   
+### Types de données   
+   
+On verra deux catégories de type de données: **scalaire** et **composés** .   
+   
+#### Type scalaire   
+Quatre types de scalaire: - nombre entier   
+- à virgule flottante   
+- chaine de caractère   
+- booléens   
+   
+##### Entier   
+Noté u (unsign) ou i (integer) de 8 à 128 bits, ex: u32.   
+
 
 
 
