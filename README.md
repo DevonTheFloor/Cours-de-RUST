@@ -79,6 +79,28 @@ Quatre types de scalaire: - nombre entier
    
 ##### Entier   
 Noté u (unsign) ou i (integer) de 8 à 128 bits, ex: u32.   
+Chaque variante signée peut stocker des nombres allant de −(2n − 1) à 2n − 1 − 1 inclus (cf tableau dans la doc: [tableau](https://jimskapt.github.io/rust-book-fr/ch03-02-data-types.html#types-de-nombres-entiers)   
+Voir aussi les littéraux d'entier dans la doc.   
+   
+Pour eviter le "rebouchage" du dépassement d'entier à la compilation de publication ( drapeau: ```--release``` ):   
+
+    - Enveloppez les opérations avec les méthodes ```wrapping_*```, comme par exemple wrapping_add   
+- Retourner la valeur None s'il y a un dépassement avec des méthodes ```checked_*```   
+- Retourner la valeur et un booléen qui indique s'il y a eu un dépassement avec des méthodes ```overflowing_*```   
+- Saturer à la valeur minimale ou maximale avec des méthodes ```saturating_*```   
+   
+##### Types de nombre à vigule flottante   
+[voir dans la doc](https://jimskapt.github.io/rust-book-fr/ch03-02-data-types.html#types-de-nombres-%C3%A0-virgule-flottante)   
+   
+
+Les types de flottants en Rust sont les ```f32``` et les ```f64``` qui est le type par défaut, ex:   
+```rust
+fn main() {
+    let x = 2.0; // f64
+
+    let y: f32 = 3.0; // f32
+}
+```   
 
 
 
