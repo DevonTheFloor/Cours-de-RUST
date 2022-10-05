@@ -83,8 +83,8 @@ Chaque variante signée peut stocker des nombres allant de −(2n − 1) à 2n �
 Voir aussi les littéraux d'entier dans la doc.   
    
 Pour eviter le "rebouchage" du dépassement d'entier à la compilation de publication ( drapeau: ```--release``` ):   
-
-    - Enveloppez les opérations avec les méthodes ```wrapping_*```, comme par exemple wrapping_add   
+   
+- Enveloppez les opérations avec les méthodes ```wrapping_*```, comme par exemple wrapping_add   
 - Retourner la valeur None s'il y a un dépassement avec des méthodes ```checked_*```   
 - Retourner la valeur et un booléen qui indique s'il y a eu un dépassement avec des méthodes ```overflowing_*```   
 - Saturer à la valeur minimale ou maximale avec des méthodes ```saturating_*```   
